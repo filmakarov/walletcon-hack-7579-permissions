@@ -3,8 +3,8 @@ pragma solidity ^0.8.24;
 
 import { IModule } from "contracts/interfaces/modules/IModule.sol";
 import { IValidator, VALIDATION_SUCCESS, VALIDATION_FAILED } from "contracts/interfaces/modules/IERC7579Modules.sol";
-import { EncodedModuleTypes } from "contracts/lib/ModuleTypeLib.sol";
-import { PackedUserOperation } from "account-abstraction/contracts/interfaces/PackedUserOperation.sol";
+import { EncodedModuleTypes } from "erc7579-ref/ModuleTypeLib.sol";
+import { PackedUserOperation } from "account-abstraction/interfaces/PackedUserOperation.sol";
 
 type ValidAfter is uint48;
 type ValidUntil is uint48;
