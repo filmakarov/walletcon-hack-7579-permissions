@@ -1,3 +1,4 @@
 modulekit/=lib/modulekit/packages/modulekit/src/
 account-abstraction/=lib/account-abstraction/contracts/
 erc7579-ref/=lib/erc7579-implementation/src
+uMSA/=lib/uMSA/src

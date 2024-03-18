@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import { IModule } from "contracts/interfaces/modules/IModule.sol";
-import { IValidator, VALIDATION_SUCCESS, VALIDATION_FAILED } from "contracts/interfaces/modules/IERC7579Modules.sol";
-import { EncodedModuleTypes } from "erc7579-ref/ModuleTypeLib.sol";
+import { IModule, IValidator, VALIDATION_SUCCESS, VALIDATION_FAILED } from "erc7579-ref/interfaces/IERC7579Module.sol";
+import { EncodedModuleTypes } from "uMSA/lib/ModuleTypeLib.sol";
 import { PackedUserOperation } from "account-abstraction/interfaces/PackedUserOperation.sol";
 
 type ValidAfter is uint48;
